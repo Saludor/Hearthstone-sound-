@@ -1,0 +1,15 @@
+<html>
+       <head>
+        <title>background</title>
+         <style>
+          body {
+           background:"file:///android_res/raw/arkanmage.jpg"
+              }
+          </style>
+       </head>
+       <body>
+       <h1></h1>
+ <img src="file:///android_res/raw/kopie.gif"></gif>"
+  </body>
+
+       </html>

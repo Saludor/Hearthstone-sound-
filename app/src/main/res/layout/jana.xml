@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:id="@+id/linerLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="center"
+android:columnCount="2"
+android:rowCount="3"
+    android:background="@mipmap/jan">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Привет"
+                android:onClick="clickBtn6"
+                android:id="@+id/Button6"
+                android:layout_marginBottom="93dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold"
+                android:background="@drawable/button_primary_selector1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="неплохо"
+                android:id="@+id/Button5"
+                android:onClick="clickBtn5"
+                android:layout_above="@+id/Button6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/button_primary_selector1"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="угроза"
+                android:onClick="clickBtn4"
+                android:id="@+id/Button4"
+                android:layout_below="@+id/Button5"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/button_primary_selector2"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Спасибо"
+                android:onClick="clickBtn3"
+                android:id="@+id/Button3"
+                android:layout_above="@+id/Button5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/button_primary_selector1"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ой!"
+                android:id="@+id/Button2"
+                android:onClick="clickBtn2"
+                android:layout_above="@+id/Button4"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/button_primary_selector2"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Извини"
+                android:id="@+id/Button1"
+                android:onClick="clickBtn"
+                android:layout_above="@+id/Button2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/button_primary_selector2"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+

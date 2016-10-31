@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testlogin.hearthstonesound"
+    android:installLocation="preferExternal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="@string/title_activity_main_activity2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tral"
+            android:label="tral"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Valira"
+            android:label="valira"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Rexar"
+            android:label="rexar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Anduin"
+            android:label="anduin"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Jana"
+            android:label="jana"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Gar"
+            android:label="gar"
+            android:screenOrientation="portrait">
+            </activity>
+        <activity
+            android:name=".Uter"
+             android:label="uter"
+            android:screenOrientation="portrait">
+            </activity>
+        <activity
+            android:name=".Malf"
+            android:label="malf"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Guldan"
+            android:label="guldan"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+
+        <activity
+            android:name=".DetailActivity"
+            android:label="Detail"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MainActivity22Activity"
+            android:label="@string/title_activity_main_activity22"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="Cardscards"
+            android:label="cards"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="Magni"
+            android:label="magni"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Aleria"
+            android:label="aleria"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Mediv"
+            android:label="mediv"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+    </application>
+
+
+</manifest>
